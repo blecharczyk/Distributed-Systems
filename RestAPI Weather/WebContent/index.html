@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Weather</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style>
+
+	
+label
+{
+    width: 80px;
+    display: inline-block;
+}
+input{
+	width: 140px;
+}
+input[type=text]
+{
+    display: inline-block;
+}
+
+  </style>
+</head>
+
+<body style="background-color:LightPink;">
+<form action="read" method="get">
+  <script src="js/scripts.js"></script>
+  
+  <h1><font color = "blue"><center><span style="background-color: #FFFF00">If you want to check the weather, tell me your location, or geographical coordinates!</span></center></font></h1>
+
+  <form>
+		<center><label for="fname"><h3>Location:</h3></label><br>
+		<input type="text" id="location" name="location"><br><br></center>
+		<center><input type="submit" value="Submit Location"> <br><br></center>
+		
+   </form>
+   
+</form>
+</body>
+</html>
